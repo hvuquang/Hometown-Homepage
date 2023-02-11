@@ -48,7 +48,7 @@ p {
 .places-place:hover {
     opacity: 1;
     transform: scale(1.1);
-    border: 1px solid #41250D;
+    border: 2px solid #41250D;
     background-color: #D1F1F7;
     padding: 10px;
 }
@@ -80,7 +80,8 @@ p {
 
 #places-section {
     background-color: #D1F1F7;
-    padding: 20px 0px 10px 0px
+    padding: 40px 0px 10px 0px;
+    height: 400px;
 }
 
 #places {

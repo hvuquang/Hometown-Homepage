@@ -1,0 +1,129 @@
+@font-face {
+    font-family: Amsterdam;
+    src: url('./font/AmsterdamTraveling.ttf');
+}
+
+@font-face {
+    font-family: Travel;
+    src: url('./font/Travel.ttf');
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.border {
+    border-bottom: 4px solid red;
+}
+
+img {
+    width: 150px;
+}
+
+h1,h2{
+    text-shadow: 0px 0px 2px white;
+    margin: 20px 0px 0px 0px;
+    font-family: 'Amsterdam', sans-serif;
+    font-size: 40px;
+}
+
+h3,h4 {
+    color: #41250D;
+    margin: 0px;
+    text-shadow: 0px 0px 1px black;
+}
+
+p {
+    text-shadow: 0px 0px 1px black;
+    color: #7B4414;
+}
+
+.places-image {
+    height: 150px;
+    border-radius: 50%;
+}
+
+.places-place:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    border: 1px solid #41250D;
+    background-color: #D1F1F7;
+    padding: 10px;
+}
+
+#hero-section {
+    height: 300px;
+    background-image: url('images/dalat.jpg');
+    background-size: contain;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hero-section > h1,h2 {
+    border-radius: 40px;
+}
+
+#hero-title {
+    padding: 20px;
+    background-color: #7B4414;
+    margin-top: 50px;
+}
+
+#hero-description {
+    padding: 20px;
+    background-color: #41250D;
+}
+
+#places-section {
+    background-color: #D1F1F7;
+    padding: 20px 0px 10px 0px
+}
+
+#places {
+    display: flex;
+    justify-content: space-around;
+}
+
+#places-title {
+    margin: 20px 0;
+    font-size: 25px;
+}
+
+.places-place {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 180px;
+    opacity: 0.9;
+}
+
+.place-name {
+    color: #41250D;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.place-description {
+    width: 200px;
+}
+
+#info-section {
+    display: flex;
+    margin: 20px auto;
+    width: 500px;
+    padding: 10px 20px;
+    background-color: #DFE4E1;
+    border-bottom: 5px solid #41250D;
+    font-size: larger;
+}
+
+#info-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
